@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Exocet';
+    src: url('./ExocetHeavy.woff') format('woff2'),
+        url('./ExocetHeavy.woff') format('woff');
+
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        color: #EBD950;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-family: 'Exocet';
+        font-size: 50px;
+        
+    }
+
+    p {
+        margin:0 auto;
+        width:70%;
+        word-spacing: 3px;
+        color: $white;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+}
+
+// background: -webkit-linear-gradient(#EBD950 5%, #AC4E1F);
+// -webkit-background-clip: text;
+// -webkit-text-fill-color: transparent;

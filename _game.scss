@@ -1,0 +1,125 @@
+.game
+{
+
+    height: 800px;
+    margin-top:-30px;
+    background: url(./img/bg4.png) no-repeat top  ;  
+    background-size: cover;
+    position: relative;
+    .content
+    {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        p
+        {
+            width: 80%;
+        }
+    }
+   
+}
+
+// .game .content >h2
+// {
+//     margin-bottom: 15px;
+//     padding-top:50px;
+//     text-transform: uppercase;
+//     font-size:50px;
+//     color:#EBD950;
+// }
+// .game .content >p
+// {
+//     line-height: 24px;
+//     font-size:17px;
+// }
+// .game-img >img 
+// {
+//     width: 50px;
+//     height: auto;
+//     position: absolute;
+// }
+// .game-img
+// {
+//     margin: 45px 0;
+//     position: relative;
+//     margin: 0 auto;
+// }
+// .game-text h2
+// {
+//     font-size:30px;
+// }
+// .game-text p
+// {
+//     font-size:18px;
+// }
+// .buttonL
+// {
+//     position: absolute;
+//     left: -15%;
+//     top:50%;
+//     transform: translate(0%,-50%)
+// }
+// .buttonR
+// {
+//     position: absolute;
+//     right: -15%;
+//     top:50%;
+//     transform: translate(0%,-50%)
+// }
+// .game-img-list
+// {
+//     display: flex;
+//     width:100%;
+//     align-items: center;
+//     position: relative;
+// }
+// .game-img-list img:nth-child(1)
+// {
+//     position: relative;
+//     /* height: 339.79px; */
+//     width: 70%;
+//     height: auto;
+//     margin: 0 auto;
+//     z-index: 9999;
+// }
+// .game-img-list img:nth-child(2)
+// {
+//     /* height: 256.13px; */
+//     height:80%;
+//     width: auto;
+//     position: absolute;
+//     left:5%;
+//     z-index: 11;
+// }
+// .game-img-list img:nth-child(3)
+// {
+//     /* height: 220px; */
+//     height:70%;
+//     width: auto;
+//     position: absolute;
+//     left:0%;
+// }
+// .game-img-list img:nth-child(4)
+// {
+//     /* height: 256.13px; */
+//     height:75%;
+//     width: auto;
+//     position: absolute;
+//     right:5%;
+//     z-index: 11;
+// }
+// .game-img-list img:nth-child(5)
+// {
+//     /* height: 220px; */
+//     height:65%;
+//     width: auto;
+//     position: absolute;
+//     right:0%;
+// }
+
+// .game-text h2
+// {
+//     text-transform: uppercase;
+//     color:#EBD950;
+//     letter-spacing:0.25px;
+// }

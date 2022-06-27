@@ -1,0 +1,14 @@
+.intro .content h2{
+    background: -webkit-linear-gradient(#EBD950 6%, #AC4E1F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family:Exocet;
+}
+.game .content h2{
+    background: -webkit-linear-gradient(#EBD950 6%, #AC4E1F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family:Exocet;
+}

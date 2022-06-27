@@ -1,0 +1,342 @@
+.roadmap {
+    height: 848px;
+    background: url(./img/bg13.png) no-repeat top;
+    position: relative;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+.roadmap .content h2 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.roadmap-main>img {
+    height: auto;
+    width: 77%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.roadmap-main-item img {
+    position: absolute;
+    height: 140px;
+    width: auto;
+}
+
+#img1 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+#img2 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+#img3 {
+    position: absolute;
+    top: 44%;
+    left: 40%;
+}
+
+#img4 {
+    position: absolute;
+    top: 38%;
+    left: 53%;
+}
+
+#img5 {
+    position: absolute;
+    top: 35%;
+    left: 68%;
+}
+
+#img6 {
+    position: absolute;
+    top: 28%;
+    left: 83%;
+}
+
+.roadmap-main-item-text {
+    transform: translateY(400%);
+}
+
+.roadmap-main-item-text h4 {
+    color: #fff000;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.highlight {
+    color: #fff000;
+}
+
+.roadmap-main-item-text ul {
+    position: absolute;
+    width: 130px;
+}
+
+.roadmap-main-item-text ul li {
+    list-style: circle;
+    font-size: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width:1100px) {
+    .roadmap-main-item-text ul li {
+        font-size: 11px;
+    }
+    .roadmap-main-item-text h4 {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    #img3 {
+        position: absolute;
+        top: 44%;
+        left: 38%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .roadmap {
+        height: 1400px;
+        background: url(./img/bg13.png) no-repeat bottom;
+        background-color: black;
+    }
+
+    .roadmap .content {
+
+        padding-top: 0px;
+    }
+
+    .roadmap .content h2 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .roadmap-main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+
+        position: relative;
+        left: 0;
+
+    }
+
+    .roadmap-main-item img {
+        height: 100px;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin-top: 50px;
+        z-index: 2;
+    }
+
+    .roadmap-main-item {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .roadmap-main-item-text {
+        width: 100%;
+        height: 150px;
+        transform: translate(0);
+        background: rgb(196 196 196/50%);
+        border-radius: 20px;
+
+    }
+
+    .roadmap-main-item .roadmap-main-item-text h4 {
+        font-size: 20px;
+        margin-top: 0;
+        padding: 10px 0 10px 20px;
+    }
+
+    .roadmap-main-item .roadmap-main-item-text ul {
+        padding-left: 20px;
+
+    }
+
+    .roadmap-main-item .roadmap-main-item-text ul li {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .roadmap-main-item::before {
+        content: " ";
+        height: 150px;
+        width: 5px;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        left: 25px;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .roadmap-main-item:nth-child(1):before {
+        height: 70px;
+        top: 50px;
+    }
+
+    #img1::after {
+        content: " ";
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+    }
+
+    #img2::after {
+        content: " ";
+        height: 20px;
+        width: 20px;
+        background-color: #000;
+        position: absolute;
+        top: -180px;
+        left: 15px;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        z-index: 777;
+    }
+}
+@media screen and (max-width:400px) {
+
+    .roadmap {
+        height: 1200px;
+        background: url(./img/bg13.png) no-repeat bottom;
+        background-color: black;
+    }
+
+    .roadmap .content {
+
+        padding-top: 0px;
+    }
+
+    .roadmap .content h2 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .roadmap-main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+
+        position: relative;
+        left: 0;
+
+    }
+
+    .roadmap-main-item img {
+        height: 100px;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin-top: 50px;
+        z-index: 2;
+    }
+
+    .roadmap-main-item {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .roadmap-main-item-text {
+        width: 100%;
+        height: 150px;
+        transform: translate(0);
+        background: rgb(196 196 196/50%);
+        border-radius: 20px;
+
+    }
+
+    .roadmap-main-item .roadmap-main-item-text h4 {
+        font-size: 20px;
+        padding: 10px 0 10px 20px;
+    }
+
+    .roadmap-main-item .roadmap-main-item-text ul {
+        padding-left: 20px;
+
+    }
+
+    .roadmap-main-item .roadmap-main-item-text ul li {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .roadmap-main-item::before {
+        content: " ";
+        height: 150px;
+        width: 5px;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        left: 7%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .roadmap-main-item:nth-child(1):before {
+        height: 70px;
+        top: 50px;
+    }
+
+    #img1::after {
+        content: " ";
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        left: 3%;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+    }
+
+    #img2::after {
+        content: " ";
+        height: 20px;
+        width: 20px;
+        background-color: #000;
+        position: absolute;
+        top: -180px;
+        left: 4.5%;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        z-index: 777;
+    }
+}
